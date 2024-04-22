@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Figtree-Extra";
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Figtree-Semi";
+    src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Figtree-Italic";
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Figtree-variable";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+   background-color: hsl(47, 88%, 63%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   width: 100vw;
+   font-size: 16px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 356px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 5px 5px hsl(0, 0%, 7%);
+}
+
+.imagem {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+img.img-container {
+    border-radius: 10px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 14px;
+}
+
+button {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-family: "Figtree-Extra";
+    height: 30px;
+    width: 80px;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 375px) {
+    button {
+            font-size: 14px;
+        }
+}
+
+span {
+    font-family: "Figtree-Semi";
+}
+
+@media screen and (max-width: 375px) {
+    span {
+            font-size: 14px;
+        }
+}
+
+h2 {
+    font-family: "Figtree-Extra";
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+            font-size: 14px;
+        }
+}
+
+.descricao {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: hsl(0, 0%, 50%);
+}
+
+p.paragrafo {
+    font-family: "Figtree-variable";
+}
+
+@media screen and (max-width: 375px) {
+    p.paragrafo {
+            font-size: 14px;
+        }
+}
+
+.icon {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.icon-paragrafo {
+    color: hsl(0, 0%, 7%);
+    font-family: "Figtree-Extra";
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .icon-paragrafo {
+            font-size: 14px;
+        }
+}
+
+
+
